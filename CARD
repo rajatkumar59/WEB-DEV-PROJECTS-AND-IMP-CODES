@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    <style>
+        
+           
+        #card{
+            border: 2px solid rgb(236, 234, 234);
+            border-radius: 3%;
+            width: 400px;
+            height: 330px;
+        }
+        img{
+            height: 50%;
+            width:97%;
+            /* padding: 3px; */
+            margin: 6px;
 
+            border-radius: 3%;
+            
+        }
+        #text{
+            font-family: sans-serif;
+            font-style: bold;
+            margin: 7px;
+
+        }
+       
+        hr {
+       margin: 7px;
+        height: 3px;
+        background-color: #f2eeee;
+        border: none;
+      }
+      #cutprice{
+        font:14px sans-serif;
+        font-weight: bold;
+        color: #727977;
+      }
+        #price{
+            margin: 8px;
+            font:14px sans-serif;
+            font-weight: bold;
+            color: mediumslateblue;
+        }
+       
+        #button{
+                 margin-top: 30px;
+                margin-bottom: 30px;
+                background-color: rgb(21, 216, 230);
+                
+                padding:5px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 60px;
+                font: bold 14px sans-serif;
+                color: white;
+}
+        #ab{
+            
+            margin: 5px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="card">
+        <div id="image">
+            <img src="https://dgyugonj9a9mu.cloudfront.net/63ac9183e4b0f1067f1b7b32_scaled_cover_daabaae21b.jpg" alt="img">
+        </div>
+        <div id="text">
+            <b>
+                Data Structure & Algorithm BootCamp @Supreme Batch
+            </b>
+        </div>
+        <hr id="line" width="72%">
+            <b>
+                <span id="price">₹3500</span>
+            <span id="cutprice" ><del>₹7000</del></span>
+            <span id="button">
+                50% off
+            </span>
+            </b>
+        
+    </div>
+</body>
+</html>
